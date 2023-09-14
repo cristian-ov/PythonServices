@@ -1,0 +1,111 @@
+1694609945717	geckodriver	INFO	Listening on 127.0.0.1:50889
+1694609948810	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50890" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\crist\\AppData\\Local\\Temp\\rust_mozprofileinkP7v"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694609949962	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1694609949973	Marionette	INFO	Listening on port 50902
+Read port: 50902
+WebDriver BiDi listening on ws://127.0.0.1:50890
+1694609950308	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:50890/devtools/browser/2c90825c-44d2-4c06-80c6-81e443187230
+JavaScript warning: https://costarica.roadtoultra.com/wp-content/themes/ultra-2015/assets/js/app.js?ver=3.7.88, line 1866: unreachable code after return statement
+JavaScript warning: https://costarica.roadtoultra.com/wp-content/themes/ultra-2015/assets/js/upp.js?ver=3.7.88, line 5179: unreachable code after return statement
+1694610010359	Marionette	INFO	Stopped listening on port 50901694610010567	mozrunner::runner	INFO	Runni*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notificationconsole.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694610011448	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1694610011459	Marionette	INFO	Listening on port 51027
+Read port: 51027
+WebDriver BiDi listening on ws://127.0.0.1:51017
+1694610011782	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:51017/devtools/browser/ecd5a17f-0790-409b-9818-d2c0aa513829
+JavaScript warning: https://costarica.roadtoultra.com/wp-content/themes/ultra-2015/assets/js/app.js?ver=3.7.88, line 1866: unreachable code after return statement
+JavaScript warning: https://costarica.roadtoultra.com/wp-content/themes/ultra-2015/assets/js/upp.js?ver=3.7.88, line 5179: unreachable code after return statement
+1694610032665	Marionette	INFO	Stopped listening on port 51021694610033412	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51107" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\crist\\AppData\\Local\\Temp\\rust_mozprofileH7jCst"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694610034280	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1694610034291	Marionette	INFO	Listening on port 51119
+Read port: 51119
+WebDriver BiDi listening on ws://127.0.0.1:51107
+1694610034605	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:51107/devtools/browser/559e47d3-31fa-45aa-a6ea-dc2b998b35b4
+JavaScript warning: https://costarica.roadtoultra.com/wp-content/themes/ultra-2015/assets/js/app.js?ver=3.7.88, line 1866: unreachable code after return statement
+JavaScript warning: https://costarica.roadtoultra.com/wp-content/themes/ultra-2015/assets/js/upp.js?ver=3.7.88, line 5179: unreachable code after return statement
+1694610160059	Marionette	INFO	Stopped listening on port 51119
+Dynamically enable window occlusion 1
+ng command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51242" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\crist\\AppData\\Local\\Temp\\rust_mozprofileDNWtbR"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694610125624	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1694610125635	Marionette	INFO	Listening on port 51251
+Read port: 51251
+WebDriver BiDi listening on ws://127.0.0.1:51242
+1694610125983	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:51242/devtools/browser/4a7c0d9a-bdbc-4f6a-8b68-5b39f577e875
+JavaScript warning: https://costarica.roadtoultra.com/wp-content/themes/ultra-2015/assets/js/app.js?ver=3.7.88, line 1866: unreachable code after return statement
+JavaScript warning: https://costarica.roadtoultra.com/wp-content/themes/ultra-2015/assets/js/upp.js?ver=3.7.88, line 5179: unreachable code after return statement
+1694610137275	Marionette	INFO	Stopped listening on port 51251
+Dynamically enable window occlusion 1
+1694610411174	geckodriver	INFO	Listening on 127.0.0.1:51470
+1694610414220	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51471" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\crist\\AppData\\Local\\Temp\\rust_mozprofileqErsBW"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694610415057	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1694610415067	Marionette	INFO	Listening on port 51481
+Read port: 51481
+WebDriver BiDi listening on ws://127.0.0.1:51471
+1694610415380	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:51471/devtools/browser/125d17fe-3da7-4415-8f7c-a40fa248213f
+JavaScript warning: https://costarica.roadtoultra.com/wp-content/themes/ultra-2015/assets/js/app.js?ver=3.7.88, line 1866: unreachable code after return statement
+JavaScript warning: https://costarica.roadtoultra.com/wp-content/themes/ultra-2015/assets/js/upp.js?ver=3.7.88, line 5179: unreachable code after return statement
+1694610429269	Marionette	INFO	Stopped listening on port 51481
+Dynamically enable window occlusion 1
+1694610506112	geckodriver	INFO	Listening on 127.0.0.1:51592
+1694610509189	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51593" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\crist\\AppData\\Local\\Temp\\rust_mozprofileBfVlJG"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694610510035	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1694610510045	Marionette	INFO	Listening on port 51603
+Read port: 51603
+WebDriver BiDi listening on ws://127.0.0.1:51593
+1694610510371	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:51593/devtools/browser/aa45e3cf-d29b-44b2-992a-9a1c98ef87b4
+JavaScript warning: https://costarica.roadtoultra.com/wp-content/themes/ultra-2015/assets/js/app.js?ver=3.7.88, line 1866: unreachable code after return statement
+JavaScript warning: https://costarica.roadtoultra.com/wp-content/themes/ultra-2015/assets/js/upp.js?ver=3.7.88, line 5179: unreachable code after return statement
+1694610518893	Marionette	INFO	Stopped listening on port 51603
+Dynamically enable window occlusion 1
+1694610580508	geckodriver	INFO	Listening on 127.0.0.1:51810
+1694610583533	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51811" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\crist\\AppData\\Local\\Temp\\rust_mozprofilefwWo0I"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694610584364	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1694610584374	Marionette	INFO	Listening on port 51836
+Read port: 51836
+WebDriver BiDi listening on ws://127.0.0.1:51811
+1694610584699	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:51811/devtools/browser/1472094a-f944-4cb6-87ec-53a7e2fb986e
+JavaScript warning: https://costarica.roadtoultra.com/wp-content/themes/ultra-2015/assets/js/app.js?ver=3.7.88, line 1866: unreachable code after return statement
+JavaScript warning: https://costarica.roadtoultra.com/wp-content/themes/ultra-2015/assets/js/upp.js?ver=3.7.88, line 5179: unreachable code after return statement
+1694650738648	geckodriver	INFO	Listening on 127.0.0.1:53742
+1694650741764	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53743" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\crist\\AppData\\Local\\Temp\\rust_mozprofileg4pc3P"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694650743079	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1694650743090	Marionette	INFO	Listening on port 53754
+Read port: 53754
+WebDriver BiDi listening on ws://127.0.0.1:53743
+1694650743382	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:53743/devtools/browser/299c78ee-7087-4f9b-8c69-b184e3bf5ece
+JavaScript warning: https://costarica.roadtoultra.com/wp-content/themes/ultra-2015/assets/js/app.js?ver=3.7.94, line 1866: unreachable code after return statement
+JavaScript warning: https://costarica.roadtoultra.com/wp-content/themes/ultra-2015/assets/js/upp.js?ver=3.7.94, line 5179: unreachable code after return statement
+1694650757780	Marionette	INFO	Stopped listening on port 53754
+Dynamically enable window occlusion 1
