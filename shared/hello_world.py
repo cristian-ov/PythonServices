@@ -1,4 +1,4 @@
-print("\n Hello World, Github People \n")
+print("\n\n Hello World, Github People \n")
 
 # i wanna show a diferent way to show the [hello World]
 # pip install Windows-Toasts
@@ -10,10 +10,10 @@ toaster = WindowsToaster('Notification service')
 # Initialise the toast
 newToast = Toast()
 # Set the body of the notification
-newToast.text_fields = ['Hello World... Github People! \nClick to continue...']
+newToast.text_fields = ['\n\n Hello World... Github People! \n\n']
 
 # Activate actions
-newToast.on_activated = lambda _: print('Toast clicked!')
+# newToast.on_activated = lambda _: print('Toast clicked!')
 
 # And display it!
 toaster.show_toast(newToast)
