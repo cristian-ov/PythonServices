@@ -7,6 +7,8 @@
 # Pandas: pip install pandas
 
 import time
+import sys
+
 
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service as ChromeService 
@@ -16,45 +18,44 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 
 
-#driver = webdriver.Firefox()
-
-# Visita la URL
-#driver.get("https://costarica.roadtoultra.com/")
-
-#print("\n data: " ,driver.title,"\n")
-
-#countdown = driver.find_element(By.ID, "countdown")
-#test = driver.find_element(By.XPATH, "//p[@id='countdown']")
-#byTag= driver.find_element(By.TAG_NAME, 'p')
-
-#print(type(byTag))
-#print(type(test))
-
-
-#print("\n Countdown: ",byTag,"\n")
-# Cierra el controlador cuando hayas terminado
-#driver.quit()
-
+# Funtion
+def getInfo():
 # instantiate options 
-options = webdriver.ChromeOptions()
+	options = webdriver.ChromeOptions()
 
-# instantiate driver 
-driver = webdriver.Chrome(service=ChromeService( 
-	ChromeDriverManager().install()), options=options) 
+	# instantiate driver 
+	driver = webdriver.Chrome(service=ChromeService( 
+		ChromeDriverManager().install()), options=options) 
 
-# URL to the website 
-url="https://costarica.roadtoultra.com/"
+	# minimize the window to not interrupt 
+	driver.minimize_window()
 
-# get the entire website content 
-driver.get(url) 
- 
-# select elements by class name 
-elements = driver.find_elements(By.ID, 'countdown') 
-for element in elements: 
-	# obtain the .text data from the element
-	data = element.text 
-	# print p
-	print(data)
+	# URL to the website 
+	url="https://costarica.roadtoultra.com/"
+
+	# get the entire website content 
+	driver.get(url) 
+
+
+	data=""
+	# select elements by class name 
+	elements = driver.find_elements(By.ID, 'countdown') 
+	for element in elements: 
+		# obtain the .text data from the element
+		data = element.text 
+		# print p
+		print(data)
+	driver.close()
+	driver.quit()
+      
+	return data
+
+
 
 #now that we have the data que have to export it to another file
 
+def main():
+    print(getInfo())
+
+if __name__ == "__main__":
+    main()
