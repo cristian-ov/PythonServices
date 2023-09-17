@@ -14,14 +14,7 @@ from windows_toasts import Toast, WindowsToaster
 with open("shared/hello_world.py") as f:
     exec(f.read())
 
-#with open("../rumf/rumf_scrapper.py") as f:
- #   exec(f.read())
 value = getInfo()
-
-#import subprocess
-#s2_out = subprocess.check_output([sys.executable, "../rumf/rumf_scrapper.py"])
-#print("Imprime: ",s2_out)
-
 
 # Prepare the toaster for bread (or your notification)
 toaster = WindowsToaster('Road to Ultra Countdown!')
