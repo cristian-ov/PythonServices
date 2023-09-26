@@ -8,4 +8,5 @@ python-3.11.3-amd64.exe /quiet InstallAllUsers=1 PrependPath=1 Include_test=0
 pip install selenium
 pip install webdriver-manager
 pip install beautifulsoup4 
-pip install pandas
+pip install windows-toasts
+pip install scheduler

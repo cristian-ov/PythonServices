@@ -20,24 +20,38 @@ from selenium.webdriver.common.by import By
 
 # Funtion
 def getInfo():
-# instantiate options 
+	# instantiate options 
 	options = webdriver.ChromeOptions()
 
-	# instantiate driver 
-	driver = webdriver.Chrome(service=ChromeService( 
-		ChromeDriverManager().install()), options=options) 
+	# IMPORTANT!!!!!!
+	# work with the try/except concept to catch the erros and avoid the fails
+	try:
+		# instantiate driver 
+		driver = webdriver.Chrome(service=ChromeService( 
+			ChromeDriverManager().install()), options=options) 
+	except SystemError:
+		print(": An exception has occurred trying to execute the driver!")
+		input("press 'ENTER' to continue...")
+
 
 	# minimize the window to not interrupt 
 	driver.minimize_window()
 
 	# URL to the website 
-	url="https://costarica.roadtoultra.com/"
+	url="https://costarica.roadtoultra.com"
 
-	# get the entire website content 
-	driver.get(url) 
+	try:
+		# get the entire website content 
+		driver.get(url) 
+	except SystemError:
+		print("An exception has occurred!")
+		input("press 'ENTER' to continue...")
 
 
 	data=""
+	
+
+
 	# select elements by class name 
 	elements = driver.find_elements(By.ID, 'countdown') 
 	for element in elements: 

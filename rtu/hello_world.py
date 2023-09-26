@@ -6,7 +6,7 @@ print("\n\n Hello World, Github People \n")
 # We import WindowsToaster and a toast format we want
 from windows_toasts import Toast, WindowsToaster
 # Prepare the toaster for bread (or your notification)
-toaster = WindowsToaster('Notification service')
+toaster = WindowsToaster('Python Services')
 # Initialise the toast
 newToast = Toast()
 # Set the body of the notification
